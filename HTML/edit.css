@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    color:white;
+    font-family: Arial, sans-serif;
+}
+
+.edit{
+background-color:rgb(32, 23, 23);
+display: block;
+height:600px;
+width:450px;
+margin-top: 20px;
+margin-left: 420px;
+margin-right: 500px;
+}
+
+.heading{
+font-family: "Irish Grover";
+color: white;
+margin-left:165px;
+position:absolute;
+}
+
+.profile{
+    margin-top:50px;
+    margin-left:50px;
+}
+
+.profile i{
+    position: absolute;
+    transform:translate(-270%,170%);
+    color:black;
+}
+
+form{
+    margin-left:3rem;
+}
+
+p{
+font-size: small;
+}
+
+.profile-pic{
+    width: 70px;
+    height: 70px;
+    border-radius:50%;
+    object-fit:cover;
+  }
+
+  .text {
+    padding-left:5rem;
+    margin-top:-3rem;
+    position: absolute;
+  }
+
+  .password{
+    display: flex;
+    position: inline;
+  }
+
+  .changebtn{
+    background-color: orangered;
+    color:white;
+    border-style: none;
+    width:130px;
+    height:16.5px;
+    margin-left:8rem;
+    margin-bottom:0.5rem;
+  }
+
+ button{
+   background-color: orangered;
+   color:white;
+   border-style: none;
+   width:70px;
+   height:30px;
+   margin-top:1.5rem;
+   margin-left:9rem;
+}
+
+ button:hover {
+    background-color: orange;
+}
+
+form i {
+    margin-left: -30px;
+    cursor: pointer;
+    color:black;
+}
+
+  

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore</title>
+    <link rel="stylesheet" href="explore.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+        <h2>Search recipes</h2>
+        <form>  <h4>Recipe Name</h4>
+                <input type="text" placeholder="Search here" size="35" required>
+                <h4>Ingredients</h4>
+                <input type="text" placeholder="Enter Ingredients" size="35" required>
+                <h4>Servings</h4>
+                <input type="text" placeholder="Number of servings" size="35" required>
+                <h4>Estimated Preparation Time</h4>
+                <input type="checkbox">
+                <label for="mycheckbox">Under 30 minutes</label><br>
+                <input type="checkbox">
+                <label for="mycheckbox">30 to 60 minutes</label><br>
+                <input type="checkbox">
+                <label for="mycheckbox">1 to 2 hours</label><br>
+                <input type="checkbox">
+                <label for="mycheckbox">Over 2 hours</label><br>
+                <h4>Users rating</h4>
+                <input type="checkbox">
+                <label for="mycheckbox">4-5 stars</label><br>
+                <input type="checkbox">
+                <label for="mycheckbox">3-4 stars</label><br>
+                <input type="checkbox">
+                <label for="mycheckbox">2-3 stars</label><br>
+                <input type="checkbox">
+                <label for="mycheckbox">1-2 stars</label><br>
+      </form>
+      <br>
+      <button class="findbtn" type="submit">Find</button>
+    </div>
+    <div class="right">
+        <div class="dropdown">
+            <div class="1column">
+            <label for="dropbtn1">Difficulty</label>
+            <select name="difficulty level" id="level">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+            </div>
+            <div class="2column">
+            <label for="dropbtn2">Cuisines</label>
+            <select name="country" id="cuisines">
+                <option value="american">American</option>
+                <option value="chinese">Chinese</option>
+                <option value="french">French</option>
+                <option value="indian">Indian</option>
+                <option value="italian">Italian</option>
+                <option value="japanese">Japanese</option>
+                <option value="korean">Korean</option>
+                <option value="mexican">Mexican</option>
+                <option value="spanish">Spanish</option>
+                <option value="thai">Thai</option>
+                <option value="south african">South African</option>
+                <option value="nigerian">Nigerian</option>
+                <option value="british">British</option>
+                <option value="egyptian">Egyptian</option>
+                <option value="german">German</option>
+                <option value="iranian">Iranian</option>
+                <option value="greek">Greek</option>
+                <option value="russian">Russian</option>
+                <option value="turkish">Turkish</option>
+                <option value="moroccan">Moroccan</option>
+                <option value="portugese">Portugese</option>
+                <option value="israeli">Israeli</option>
+            </select>
+            </div>
+            <div class="3column">
+            <label for="dropbtn3">Courses</label>
+            <select name="courses" id="course">
+                <option value="breakfast">Breakfast</option>
+                <option value="lunch">Lunch</option>
+                <option value="dinner">Dinner</option>
+                <option value="dessert">Dessert</option>
+                <option value="appetizer">Appetizer</option>
+                <option value="drink">Drink</option>
+                <option value="snack">Snack</option>
+                <option value="side">Side</option>
+          </select>
+          </div>
+          <div class="4column">
+            <label for="dropbtn4">Dietary preference</label>
+            <select name="dietary" id="diet">
+                <option value="vegetarian">Vegetarian</option>
+                <option value="vegan">Vegan-friendly</option>
+                <option value="pescetarian">Pescetarian</option>
+                <option value="gluten free">Gluten Free</option>
+                <option value="diary free">Diary Free</option>
+                <option value="nut free">Nut Free</option>
+                <option value="koshar">Koshar</option>
+                <option value="paleo">Paleo</option>
+                <option value="keto">Keto</option>
+                <option value="low sodium">Low Sodium</option>
+                <option value="kid friendly">Kid-Friendly</option>
+                <option value="non veg">Non-Veg</option>
+            </select>
+            </div>
+        </div>
+        <div class="result">
+            <div class="heading">
+           <h4>Result for</h4>
+           <h2>Top recipes</h2>
+           </div>
+         <div class="recipes">
+            <div class="row">
+                <div class="column1">
+                    <img class="post-pic" src="rogatoni pasta.avif" alt="Rigatoni Pasta picture">
+                </div>
+            <div class="column2">
+                <img class="profile-pic" src="nikki andrews.avif" alt="Nikki Andrews profile picture">
+                <h3 class="profile-name">Nikki Andrews</h3>
+                <h5 class="user-name">@nik_a</h5>
+                <li>Quick and easy</li>
+                <li>Vegan-friendly</li>
+                <li>Serves 2</li>
+                <li>Ready in 20 mins</li>
+                <li>Breakfast</li>
+                </div>
+                <div class="column3">
+                    <h2>Rigatoni Pasta</h2>
+                    <div class="rating">
+                        <span class="fa fa-star checked"></span> 
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span> 
+                      </div>
+                      <li class="review">500+ reviews</li>
+                      <li class="country1">Indian</li>
+                </div>
+                <div class="column4">
+                    <button class="viewbtn" ><a href="recipe.html">View Details</a></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column1">
+                    <img class="post-pic" src="spicy chicken curry.avif" alt="Spicy Chicken Curry picture">
+                </div>
+            <div class="column2">
+                <img class="profile-pic" src="luis villasmil.avif" alt="Luis Villasmil profile picture">
+                <h3 class="profile-name">Luis Villasmil</h3>
+                <h5 class="user-name">@lui_vil</h5>
+                <li>Medium</li>
+                <li>Non-Veg</li>
+                <li>Serves 4</li>
+                <li>Ready in 30 mins</li>
+                <li>Dinner</li>
+            </div>
+            <div class="column3">
+                <h2>Spicy Chicken Curry</h2>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span> 
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span> 
+                  </div>
+                  <li class="review">500+ reviews</li>
+                  <li class="country2">American</li>
+            </div>
+            <div class="column4">
+                <button class="viewbtn" ><a href="#">View Details</a></button>
+            </div>
+            </div>
+            <div class="row">
+                <div class="column1">
+                    <img class="post-pic" src="creamy mushroom.avif" alt="Creamy Mushroom Picture">
+                </div>
+            <div class="column2">
+                <img class="profile-pic" src="stephanie Liverani.avif" alt="Stephanie Liverani profile picture">
+                <h3 class="profile-name">Stephanie Liverani</h3>
+                <h5 class="user-name">@sph_liv</h5>
+                <li>Easy</li>
+                <li>Vegan-friendly</li>
+                <li>Serves 4</li>
+                <li>Ready in 45 mins</li>
+                <li>Lunch</li>
+            </div>
+            <div class="column3">
+                <h2>Creamy Mushroom</h2>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span> 
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span> 
+                  </div>
+                  <li class="review">300 reviews</li>
+                  <li class="country3">Italian</li>
+            </div>
+            <div class="column4">
+                <button class="viewbtn" ><a href="#">View Details</a></button>
+            </div>
+            </div>
+         <div class="pagination">
+            <a href=""><i class="fas fa-arrow-left"></i></a>
+            <a href="" title="page1">1</a>
+            <a href="" title="page2" class="active">2</a>
+            <a href="" title="page3">3</a>
+            <a href="" title="page4">4</a>
+            <a href="" title="remaining page">.....</a>
+            <a href="" title="page25">25</a>
+            <a href=""><i class="fas fa-arrow-right"></i></a>
+         </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

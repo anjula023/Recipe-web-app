@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color:white;
+    font-family: Arial, sans-serif;
+  }
+
+.container {
+    display: grid;
+    grid-template-columns:25vh 130vh;
+    grid-gap: 10rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .website-name {
+    padding-left: 3rem;
+    font-size: 2rem;
+    font-family: "Irish Grover";
+    margin-bottom: 1rem;
+  }
+  
+  .menu {
+    list-style: none;
+    padding-left:2rem;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu-item a {
+    margin-top:4.5rem;
+    text-decoration: none;
+    padding:0.5rem 1rem;
+    display: block;
+    color:white;
+  }
+  
+  .menu-item a:hover {
+    background-color: grey;
+  }
+  
+  .vertical-line{
+    border-left: 4px solid white;
+    height:675px;
+    position:absolute;
+    left:20%;
+  }
+
+  .profile-pic{
+    margin-top:1rem;
+    width: 90px;
+    height: 90px;
+    border-radius:50%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+  }
+
+  .profile-name {
+    font-family: "Irish Grover";
+    padding-left:8rem;
+    margin-top:-8rem;
+  }
+
+  .user-name {
+    padding-left:8rem;
+    margin-top:-1rem;
+  }
+
+  .note{
+    font-family: "Irish Grover";
+    padding-left:8rem;
+  }
+
+  .post{
+    margin-top:1.5rem;
+    display:grid;
+    grid-template-columns: 45vh 45vh 45vh;
+  }
+
+  img{
+     height:35vh;
+     width:40vh;
+  }
+
+  .button{
+    margin-left:35rem;
+    margin-top:0.5rem;
+    display:grid;
+    grid-template-columns: 20vh auto;
+    grid-gap:1rem;
+  }
+
+  .btn{
+    background-color: orangered;
+    color:white;
+    padding:0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background-color: orange;
+  }
+
+  .post-title {
+    position: absolute;
+    font-family:"irish Grover";
+    font-size: 1.5rem;
+    transform:translate(10%,-220%);
+    background-color: rgba(41,41,41,0.8);
+    color:white;
+  }
+
+  .fa{
+    position:absolute;
+    margin-top:0.5rem;
+    margin-left:1rem;
+    transform:translate(-190%,20%);
+    padding:0.4rem;
+    background-color: rgba(41,41,41,0.8);
+    color:white;
+  }
+  
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    margin-top:-1rem;
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: 50px;
+    right:10px;
+    z-index: 2;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: grey}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+ 
+  
+
+
+
+  
+  
+ 

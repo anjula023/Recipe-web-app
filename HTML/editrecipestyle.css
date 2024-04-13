@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(32, 23, 23);
+    color:white;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 60vh 50vh 70vh;
+    grid-gap:1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+
+  .heading{
+    margin-left:7rem;
+    margin-top:1rem;
+ }
+
+  .icon{
+    position: absolute;
+    transform:translate(-370%,150%);
+    color:black;
+    font-size: 55px;
+    }
+ 
+  .post{
+    width:350px;
+    height:240px;
+  }
+
+  input{
+    background-color: grey;
+  }
+
+  .column2{
+     padding-top:4.5rem;
+  }
+  select{
+    background-color: grey;
+  }
+
+  .save{
+    background-color: orangered;
+    color:white;
+    border-style: none;
+    width:120px;
+    height:25px;
+    margin-top:1.5rem;
+    margin-left:20rem;
+  }
+  
+  button:hover {
+    background-color: orange;
+  }
+
+  .ingredients{
+    display:grid;
+    grid-template-columns: 60vh 5vh;
+    height:300px;
+    width:420px;
+    background-color: grey;
+    padding:1rem;
+  }
+
+  table{
+    width: 95%;
+    border-collapse: collapse;
+    border:none;
+    color:black;
+    
+  }
+
+  tr{
+    border-top:1px solid black;
+  }
+
+  tr:first-child{
+    border-top:none;
+  }
+
+#icon{
+    display: block;
+    color:orange;
+    margin-top:0.6rem;
+}
+
+.addingredient{
+    background-color: orangered;
+    color:white;
+    border-style: none;
+    width:120px;
+    height:25px;
+    margin-top:1.5rem;
+    margin-left:2.5rem;
+  }
+  
+  button:hover {
+    background-color: orange;
+  }
+
+  .amount{
+    background-color: grey;
+  }
+
+  .instruction{
+    margin-left:3.3rem;
+  }
+
+ .inst{
+    background-color: grey;
+ }
+
+    

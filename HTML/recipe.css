@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color:white;
+    font-family: Arial, sans-serif;
+  }
+
+.container {
+    display: grid;
+    grid-template-columns:30vh auto;
+    grid-gap: 10rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .website-name {
+    padding-left: 3rem;
+    font-size: 2rem;
+    font-family: "Irish Grover";
+    margin-bottom: 1rem;
+  }
+  
+  .menu {
+    list-style: none;
+    padding-left:2rem;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu-item a {
+    margin-top:4.5rem;
+    text-decoration: none;
+    padding:0.5rem 1rem;
+    display: block;
+    color:white;
+  }
+  
+  .menu-item a:hover {
+    background-color: grey;
+  }
+  
+  .vertical-line{
+    border-left: 4px solid white;
+    height:670px;
+    position:absolute;
+    left:20%;
+  }
+
+  .right-column{
+    display:grid;
+    grid-template-columns: 60vh 60vh;
+    grid-gap:1rem;
+    color:black;
+  }
+
+  .recipe{
+    margin-top:1rem;
+    height:63vh;
+    width:60vh;
+    background-color: rgb(247, 247, 126);
+  }
+
+  .heading{
+    font-family: "Irish Grover";
+    display:flex;
+    justify-content: center;
+  }
+
+  .ingredient{
+    font-family: "Irish Grover";
+    margin-left:1rem;
+  }
+
+  table{
+    width: 95%;
+    border-collapse: collapse;
+    border:none;
+  }
+
+  tr{
+    border-top:1px solid black;
+  }
+
+  tr:first-child{
+    border-top:none;
+  }
+
+  .detail{
+    margin-top:1rem;
+    height:63vh;
+    width:50vh;
+    background-color: rgb(247, 247, 126);
+  }
+
+  .post{
+    width:50vh;
+    height:30vh;
+  }
+
+  .post-title {
+    position: absolute;
+    font-family:"irish Grover";
+    font-size: 1.5rem;
+    transform:translate(10%,-220%);
+    background-color: rgba(41,41,41,0.8);
+    color:white;
+  }
+
+  .pastadetail{
+    margin-top:-1rem;
+    margin-left:1rem;
+  }
+
+  .dish{
+    list-style: none;
+    font-size: 12px;
+   }
+
+   .profile-pic{
+    margin-top:3rem;
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    object-fit: cover;
+    margin-left:0.5rem;
+  }
+
+  .profile-name {
+    font-family: "Irish Grover";
+    padding-left:4rem;
+    margin-top:-3rem;
+  }
+
+  .user-name {
+    padding-left:4rem;
+    margin-top:-1rem;
+  }
+
+  .note{
+    font-family:"Irish Grover";
+    margin-left:0.5rem;
+  }
+
+  .rating{
+    margin-top:1rem;
+    margin-left:13rem;
+    display:flex;
+  }
+
+  .checked{
+    color:rgb(255, 188, 3);
+  }
+
+  .review{
+    list-style:none;
+    padding-left:14rem;
+    margin-top:-4rem;
+  }
+
+  .country{
+    list-style:none;
+    padding-left:17rem;
+  }
+
+  .instruction{
+    color:white;
+  }
+
+  .steps{
+    height:22vh;
+    width:115vh;
+    background-color:rgb(247, 247, 126) ;
+  }
+
+  .scroll{
+     height:120px;
+     overflow:scroll;
+     overflow-x:hidden;
+  }
+
+  p{
+    margin:1rem;
+  }
+
+  button{
+    margin-left:9rem;
+    background-color: orangered;
+    color: white;
+    padding:0.2rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+  }
+
+  button:hover {
+    background-color: orange;
+  }
+
+  .pname{
+    color:black;
+    text-decoration: none;
+  }

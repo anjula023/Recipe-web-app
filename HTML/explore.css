@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(32, 23, 23);
+    color:white;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 40vh auto;
+    grid-gap: 5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  input{
+    background-color: black;
+    border-color: black;
+  }
+
+  .left{
+    margin-top:2rem;
+  }
+
+  .findbtn{
+    background-color: orangered;
+    color:white;
+    border-style: none;
+    width:280px;
+    height:30px;
+    font-size:18px;
+    text-decoration: none;
+  }
+
+  .dropdown{
+    display:grid;
+    grid-template-columns: 30vh 30vh 30vh 40vh;
+    margin-top:2rem;
+  }
+
+  .result{
+    height:95vh;
+    background-color: black;
+    margin-top:2rem;
+  }
+
+  .heading{
+    padding-top:0.5rem;
+    padding-left: 2rem;
+    font-family: "Aclonica";
+  }
+
+  .recipes{
+    margin:1.0rem;
+    display: grid;
+    grid-template-rows:22vh 22vh 22vh;
+    grid-gap: 1rem;
+  }
+
+  .row{
+    display:grid;
+    grid-template-columns:20vh 50vh 36vh 20vh;
+    background-color:rgb(32, 23, 23) ;
+    grid-gap: 1rem;
+  }
+
+  .post-pic{
+    margin:0.9rem;
+    height:110px;
+    width: 100px;
+  }
+
+  .profile-pic{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    object-fit: cover;
+  }
+
+  .profile-name {
+    padding-left:4rem;
+    margin-top:-3rem;
+  }
+  
+  .user-name {
+    padding-left:4rem;
+    margin-top:-1rem;
+  }
+
+  li{
+   list-style: none;
+   font-size: 12px;
+  }
+
+  .checked{
+    color: rgb(255, 188, 3);
+  }
+
+  .review{
+    margin-top:0.5rem;
+    margin-left:2rem;
+  }
+
+  .country1{
+    margin-left:4.3rem;
+  }
+
+  .viewbtn{
+    background-color: orangered;
+    color:white;
+    border-style: none;
+    width:120px;
+    height:30px;
+    margin-top:6rem;
+  }
+
+  button:hover {
+    background-color: orange;
+}
+
+.country2{
+    margin-left:3.2rem;
+}
+
+.country3{
+    margin-left:4rem;
+}
+
+i{
+ color:white;
+}
+
+a{
+    color:white;
+}
+
+.pagination{
+   margin-left:24rem;
+   position:relative;
+}
+
+.active{
+    background-color: orangered;
+}

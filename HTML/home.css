@@ -1,0 +1,208 @@
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color:white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 25vh 60vh auto;
+    grid-gap: 10rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .website-name {
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Irish Grover";
+    margin-bottom: 1rem;
+  }
+  
+  .menu {
+    list-style: none;
+    padding-left:2rem;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu-item {
+    margin-top:4.5rem;
+  }
+  
+  .menu-item a {
+    text-decoration: none;
+    padding:0.5rem 1rem;
+    display: block;
+    color:white;
+  }
+  
+  .menu-item a:hover {
+    background-color: grey;
+  }
+  
+  .vertical-left{
+    border-left: 4px solid white;
+    height:680px;
+    position:absolute;
+    left:20%;
+  }
+
+  .profile1{
+    display:grid;
+    grid-template-columns:9vh 19vh auto;
+    background-color:rgb(247, 247, 126);
+    height:3.5rem;
+  }
+
+  .profile-pic{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    object-fit: cover;
+    margin-left:0.5rem;
+    margin-top:0.2rem;
+  }
+
+  .profile-name {
+    
+    color:orange;
+  }
+
+  .user-name {
+   
+   
+    color:black;
+  }
+  
+  .followbtn {
+    background-color: orangered;
+    color: white;
+    padding:0.2rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    margin-left:13rem;
+    margin-bottom:2rem;
+  }
+  .post {
+    margin-top: 1rem;
+  }
+  
+  img{
+    width:60vh;
+    height:35vh;
+  }
+
+  .post-title {
+    position: absolute;
+    font-family:"irish Grover";
+    font-size: 1.5rem;
+    transform:translate(10%,-220%);
+    background-color: rgba(41,41,41,0.8);
+  }
+  
+  .post-actions {
+    background-color:rgb(247, 247, 126); 
+    height:2rem;
+    display:flex;
+  }
+  
+  .rating{
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+    margin-left:8rem;
+    display:flex;
+  }
+
+  .like{
+    margin:0.5rem;
+    color:red;
+  }
+
+  .count-actions{
+    margin-bottom:4rem;
+    color:black;
+  }
+
+  .comment{
+    margin:0.5rem;
+    color:black;
+  }
+
+  .share{
+    margin:0.5rem;
+    padding-left:1rem;
+    color:black;
+  }
+
+  .fa{
+    color:white;
+  }
+
+  .checked{
+    color: rgb(255, 188, 3);
+  }
+
+  .vertical-right{
+    border-right: 4px solid white;
+    height:680px;
+    position:absolute;
+    right:32%;
+  }
+  
+  .profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    object-fit: cover;
+  }
+  
+  .suggest{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding-top:2rem;
+  }
+
+  .follow-button {
+    background-color: orangered;
+    color: white;
+    padding:0.2rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    margin-top:2rem;
+  }
+  
+  .follow-button:hover {
+    background-color: orange;
+  }
+
+  .suggested-user {
+    display:grid;
+    grid-template-rows:12vh 12vh 12vh 12vh 12vh;
+    padding-top: 1rem;
+  }
+
+.first{
+  display:grid;
+  grid-template-columns:9vh 19vh auto;
+}
+
+.one{
+  margin-top:0.5rem;
+}
+
+a{
+  color:white;
+}
+
+
+
+  
+  

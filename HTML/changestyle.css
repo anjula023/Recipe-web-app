@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    color:white;
+    font-family: Arial, sans-serif;
+}
+
+.change{
+display: block;
+background-color:rgb(32, 23, 23);
+height:600px;
+width:450px;
+margin-top: 20px;
+margin-left: 420px;
+margin-right: 500px;
+}
+
+.heading{
+font-family:"Irish Grover";
+color: white;
+margin-left:8.5rem;
+position:absolute;
+}
+
+.text{
+    margin-top:2rem;
+    padding:2rem;
+}
+
+form{
+    margin-top:0.5rem;
+    margin-left:2rem;
+}
+
+.forgot{
+ color:orangered;
+}
+
+button{
+    background-color: orangered;
+    color:white;
+    border-style: none;
+    width:170px;
+    height:30px;
+    margin-top:7rem;
+    margin-left:7rem;
+ }
+
+ button:hover {
+    background-color: orange;
+}

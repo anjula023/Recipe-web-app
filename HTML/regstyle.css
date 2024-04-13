@@ -1,0 +1,52 @@
+body{
+    display:flex;
+    justify-content: center;
+    background-image: url('background.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.container{
+margin-top:2rem;
+background-color: black;
+color: white;
+height:70vh;
+width:48vh;
+text-align: center;
+}
+
+button{
+   background-color: orangered;
+   color:white;
+   border-style: none;
+   width:280px;
+   height:30px;
+}
+
+button:hover{
+    background-color: orange;
+}
+
+p{
+    font-size: 12px;
+}
+
+a{
+    color:white;
+}
+
+.login{
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    height:10vh;
+    width:48vh;
+    margin-top:2rem;
+}
+
+.signup{
+    color:orangered;
+}
+
+

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Recipe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="column1">
+        <div class="heading"><h2>Edit Recipe</h2></div>
+        <div class="photo">
+              <img class="post" src="banana muffins.avif" alt="Banana Muffins picture">
+              <a class="icon" href="#" ><i class="bi bi-camera-fill"></i></a>
+        </div>
+        <p>Recipe Name</p>
+        <input write type="text" value="Banana Muffins" size="45" required>
+        <p>Note</p>
+        <input write type="text" value="I used my grandma's banana bread recipe and turned it into muffins!" size="45" required>
+        </div>
+        <div class="column2">
+            <div class="option1">
+                <label for="dropbtn1">Difficulty</label>
+                <select name="difficulty level" id="level">
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+              </div>
+              <br><br><br>
+              <div class="option2">
+                <label for="dropbtn2">Dietary preference</label>
+                <select name="dietary" id="diet">
+                    <option value="vegetarian">Vegetarian</option>
+                    <option value="vegan">Vegan-friendly</option>
+                    <option value="pescetarian">Pescetarian</option>
+                    <option value="gluten free">Gluten Free</option>
+                    <option value="diary free">Diary Free</option>
+                    <option value="nut free">Nut Free</option>
+                    <option value="koshar">Koshar</option>
+                    <option value="paleo">Paleo</option>
+                    <option value="keto">Keto</option>
+                    <option value="low sodium">Low Sodium</option>
+                    <option value="kid friendly">Kid-Friendly</option>
+                    <option value="non veg">Non-Veg</option>
+                </select>
+                </div>
+                <br><br><br>
+                <div class="serving">
+                    <label for="servings">Servings</label>
+                    <input type="number" id="serving" name="serving" min="1" max="infinite" value="4">
+                </div>
+                <br><br><br>
+                <div class="cookingtime">
+                    <label for="cookingtime">Preparation Time</label>
+                   <input type="number" id="cooktime" name="cooktime" min="00" max="23" value="00" required>hrs
+                   <input type="number" id="cooktime" name="cooktime" min="00" max="59" value="45" required>mins
+                </div>
+                <br><br><br>
+                <div class="option3">
+                    <label for="dropbtn3">Courses</label>
+                    <select name="courses" id="course">
+                        <option value="breakfast">Breakfast</option>
+                        <option value="lunch">Lunch</option>
+                        <option value="dinner">Dinner</option>
+                        <option value="dessert">Dessert</option>
+                        <option value="appetizer">Appetizer</option>
+                        <option value="drink">Drink</option>
+                        <option value="snack">Snack</option>
+                        <option value="side">Side</option>
+                  </select>
+                  </div>
+                  <br><br><br>
+                  <div class="option4">
+                    <label for="dropbtn4">Cuisines</label>
+                    <select name="country" id="cuisines">
+                        <option value="american">American</option>
+                        <option value="chinese">Chinese</option>
+                        <option value="french">French</option>
+                        <option value="indian">Indian</option>
+                        <option value="italian">Italian</option>
+                        <option value="japanese">Japanese</option>
+                        <option value="korean">Korean</option>
+                        <option value="mexican">Mexican</option>
+                        <option value="spanish">Spanish</option>
+                        <option value="thai">Thai</option>
+                        <option value="south african">South African</option>
+                        <option value="nigerian">Nigerian</option>
+                        <option value="british">British</option>
+                        <option value="egyptian">Egyptian</option>
+                        <option value="german">German</option>
+                        <option value="iranian">Iranian</option>
+                        <option value="greek">Greek</option>
+                        <option value="russian">Russian</option>
+                        <option value="turkish">Turkish</option>
+                        <option value="moroccan">Moroccan</option>
+                        <option value="portugese">Portugese</option>
+                        <option value="israeli">Israeli</option>
+                    </select>
+            </div>
+        </div>
+        <div class="column3">
+           <a href="#"><button class="save">Save</button></a>
+           <p>Ingredients</p>
+           <div class="ingredients">
+            <table>
+                <tr>
+                  <td>Sugar</td>
+                  <td>1 cup</td>
+                </tr>
+                <tr>
+                  <td>Butter melted and cooled</td>
+                  <td>1/2 cup</td>
+                </tr>
+                <tr>
+                  <td>Vanilla extract</td>
+                  <td>1 tablespoon</td>
+                </tr>
+                <tr>
+                  <td>Buttermilk</td>
+                  <td>3/4 cup</td>
+                </tr>
+                <tr>
+                  <td>Baking Soda</td>
+                  <td>1 tablespoon</td>
+                </tr>
+                <tr>
+                  <td>All purpose flour</td>
+                  <td>3 cups</td>
+                </tr>
+                <tr>
+                  <td>Mashed bananas</td>
+                  <td>1 cup</td>
+                </tr>
+                <tr>
+                  <td>Walnuts optional</td>
+                  <td>1 cup</td>
+                </tr>
+                <tr>
+                  <td>Granulated sugar</td>
+                  <td>1/3 cup</td>
+                </tr>
+                <tr>
+                  <td>Brown sugar</td>
+                  <td>3 tablespoon</td>
+                </tr>
+                <tr>
+                  <td>Salt</td>
+                  <td>Pinch</td>
+                </tr>
+            </table>
+            <div class="minus">
+            <a href="#"><i id="icon" class="bi bi-dash-circle"></i></a>
+            <a href="#"><i id="icon" class="bi bi-dash-circle"></i></a>
+            <a href="#"><i id="icon" class="bi bi-dash-circle"></i></a>
+            <a href="#"><i id="icon" class="bi bi-dash-circle"></i></a>
+            <a href="#"><i id="icon" class="bi bi-dash-circle"></i></a>
+            <a href="#"><i id="icon" class="bi bi-dash-circle"></i></a>
+            <a href="#"><i id="icon" class="bi bi-dash-circle"></i></a>
+            <a href="#"><i id="icon" class="bi bi-dash-circle"></i></a>
+            <a href="#"><i id="icon" class="bi bi-dash-circle"></i></a>
+            <a href="#"><i id="icon" class="bi bi-dash-circle"></i></a>
+            <a href="#"><i id="icon" class="bi bi-dash-circle"></i></a>
+            </div>
+           </div>
+           <div class="amt">
+           <a href="#"><button class="addingredient" > +Ingredient </button></a>
+           <label>Amount</label> <textarea class="amount" name="amounts" cols="10" rows="1"></textarea>
+           <label for="units">unit</label>
+           <select name="unit" id="unit">
+               <option></option>
+               <option value="kg">kg</option>
+               <option value="lit">lit</option>
+               <option value="cup">cup</option>
+               <option value="spoon">spoon</option>
+               <option value="ounces">ounces</option>
+               <option value="pinch">pinch</option>
+           </select>
+           </div>
+        </div>
+        </div>
+        <div class="instruction">
+            <p>Instructions</p>
+                <textarea write type="text" class="inst" cols="162" rows="7">
+1.In a small bowl whisk together the 1/2 cup flour, 1/3 cup granulated sugar, brown sugar, walnuts, and salt. Pour in the 4 tsp melted butter and mix together until crumbles from about the size of peas. Set aside.
+2.Preheat oven to 425F and prepare a muffin tin with liners. Combine melted butter, sugar, vanilla, buttermilk, and mashed bananas. Mix until combined. 
+3.In a separate bowl mix together flour and baking soda. Gently fold wet ingredients into the dry ingredients. It's important not to over-mix as this can lead to a chewy muffin. It's okay to have a few clumps of flour remaining. Gently fold in walnuts.
+4.Use a large ice cream scoop to equally spoon the butter into each muffin with the crumble mixture. 
+5.Bake at 425F for 15 minutes, then reduce heat to 375 ( do not open the oven ) and bake until golden, about 10 more minutes. Let cool in the muffin tin for about 10 minutes, then transfer to a cooling rack.</textarea>
+            </div>
+        </div>
+</body>
+</html>

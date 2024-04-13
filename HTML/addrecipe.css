@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(32, 23, 23);
+    color:white;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 70vh 80vh;
+    grid-gap: 5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .heading{
+     margin-left:12rem;
+     margin-top:1rem;
+  }
+
+  .bi{
+    color:black;
+    display: flex;
+    justify-content: center;
+    margin-top:5rem;
+    font-size:34px;
+  }
+
+  .add{
+   margin-left:5rem;
+   background-color: grey;
+   height:240px;
+   width:350px;
+   position:absolute;
+  }
+  
+  .upload{
+    color:black;
+    text-align: center;
+    font-size: small;
+  }
+
+  textarea{
+    background-color: black;
+    border-color: black;
+    color:white;
+  }
+
+  .note{
+    margin-left:5rem;
+    margin-top:16rem;
+  }
+
+.dropdown{
+  margin-left:5rem;
+  margin-top:1.5rem;
+}
+
+select{
+  background-color: black;
+  color:white;
+}
+
+#course{
+  padding-right:13rem;
+}
+
+#diet{
+  padding-right:6.7rem;
+}
+
+#level{
+  padding-right:13.5rem;
+}
+
+#cuisines{
+  padding-right:11.3rem;
+}
+
+.ing{
+  display: inline;
+}
+
+.addingredient{
+  background-color: orangered;
+  color:white;
+  border-style: none;
+  width:120px;
+  height:25px;
+  margin-top:0.5rem;
+  margin-left:3.5rem;
+}
+
+button:hover {
+  background-color: orange;
+}
+
+input{
+  background-color: black;
+  color:white;
+}
+
+.post{
+  color:white;
+  display: flex;
+  justify-content: center;
+}
+
+.publish{
+  background-color: orangered;
+  color:white;
+  border-style: none;
+  width:200px;
+  height:35px;
+  font-size:15.5px;
+}
+

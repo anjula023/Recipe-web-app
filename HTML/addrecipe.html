@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Recipe</title>
+    <link rel="stylesheet" href="addrecipe.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="column1">
+        <div class="heading"><h2>Add Photos</h2></div>
+        <div class="add">
+              <i class="bi bi-plus-square"></i>
+              <a class="upload" href="#"><p class="upload">upload</p><p>or drag & drop</p></a>
+        </div>
+        <textarea class="note" name="notes" placeholder="Write a note..." cols="45" rows="5"></textarea>
+        <div class="dropdown">
+            <div class="option1">
+            <label for="dropbtn1">Courses</label>
+            <select name="courses" id="course">
+                <option></option>
+                <option value="breakfast">Breakfast</option>
+                <option value="lunch">Lunch</option>
+                <option value="dinner">Dinner</option>
+                <option value="dessert">Dessert</option>
+                <option value="appetizer">Appetizer</option>
+                <option value="drink">Drink</option>
+                <option value="snack">Snack</option>
+                <option value="side">Side</option>
+          </select>
+          </div>
+          <br>
+          <div class="option2">
+          <label for="dropbtn2">Dietary preference</label>
+          <select name="dietary" id="diet">
+            <option></option>
+              <option value="vegetarian">Vegetarian</option>
+              <option value="vegan">Vegan-friendly</option>
+              <option value="pescetarian">Pescetarian</option>
+              <option value="gluten free">Gluten Free</option>
+              <option value="diary free">Diary Free</option>
+              <option value="nut free">Nut Free</option>
+              <option value="koshar">Koshar</option>
+              <option value="paleo">Paleo</option>
+              <option value="keto">Keto</option>
+              <option value="low sodium">Low Sodium</option>
+              <option value="kid friendly">Kid-Friendly</option>
+              <option value="non veg">Non-Veg</option>
+          </select>
+          </div>
+          <br>
+          <div class="option3">
+            <label for="dropbtn3">Difficulty</label>
+            <select name="difficulty level" id="level">
+                <option></option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+          </div>
+          <br>
+          <div class="option4">
+            <label for="dropbtn4">Cuisines</label>
+            <select name="country" id="cuisines">
+                <option></option>
+                <option value="american">American</option>
+                <option value="chinese">Chinese</option>
+                <option value="french">French</option>
+                <option value="indian">Indian</option>
+                <option value="italian">Italian</option>
+                <option value="japanese">Japanese</option>
+                <option value="korean">Korean</option>
+                <option value="mexican">Mexican</option>
+                <option value="spanish">Spanish</option>
+                <option value="thai">Thai</option>
+                <option value="south african">South African</option>
+                <option value="nigerian">Nigerian</option>
+                <option value="british">British</option>
+                <option value="egyptian">Egyptian</option>
+                <option value="german">German</option>
+                <option value="iranian">Iranian</option>
+                <option value="greek">Greek</option>
+                <option value="russian">Russian</option>
+                <option value="turkish">Turkish</option>
+                <option value="moroccan">Moroccan</option>
+                <option value="portugese">Portugese</option>
+                <option value="israeli">Israeli</option>
+            </select>
+            </div>
+        </div>
+        </div>
+        <div class="column2">
+            <div class="heading"><h2>Create a recipe</h2></div>
+            <p>Recipe Name</p>
+            <textarea class="recipename" name="recipe" cols="65" rows="1"></textarea>
+            <p>Ingredients</p>    
+            <div class="ing">
+            <textarea class="ingredients" name="ingredient" cols="30" rows="1"></textarea>
+            <label>Amount</label> <textarea class="amount" name="amounts" cols="10" rows="1"></textarea>
+            <label for="units">unit</label>
+            <select name="unit" id="unit">
+                <option></option>
+                <option value="kg">kg</option>
+                <option value="lit">lit</option>
+                <option value="cup">cup</option>
+                <option value="spoon">spoon</option>
+                <option value="ounces">ounces</option>
+                <option value="pinch">pinch</option>
+            </select>
+             </div>
+             <a href="#"><button class="addingredient" > +Ingredient </button></a>
+           <p>Instructions</p>
+            <textarea class="" name="recipe" cols="65" rows="13"></textarea>
+            <br><br>
+            <div class="cookingtime">
+            <label for="cookingtime">Cooking Time</label>
+           <input type="number" id="cooktime" name="cooktime" min="00" max="23" required>hr
+           <input type="number" id="cooktime" name="cooktime" min="00" max="59" required>min
+           </div>
+           <br>
+           <div class="serving">
+           <label for="servings">Servings</label>
+           <input type="number" id="serving" name="serving" min="1" max="infinite">
+           </div>
+           <br>
+            </div>
+          </div>
+    <div class="post">
+        <a href="#"><button class="publish">Publish Now</button></a>
+    </div>
+</body>
+</html>
