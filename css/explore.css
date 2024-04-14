@@ -17,6 +17,7 @@ body {
   input{
     background-color: black;
     border-color: black;
+    color:white;
   }
 
   .left{
@@ -30,7 +31,6 @@ body {
     width:280px;
     height:30px;
     font-size:18px;
-    text-decoration: none;
   }
 
   .dropdown{
@@ -42,7 +42,7 @@ body {
   .result{
     height:95vh;
     background-color: black;
-    margin-top:2rem;
+    margin-top:0.5rem;
   }
 
   .heading{
@@ -124,7 +124,7 @@ body {
 }
 
 .country3{
-    margin-left:4rem;
+    margin-left:4.4rem;
 }
 
 i{
@@ -133,6 +133,7 @@ i{
 
 a{
     color:white;
+    text-decoration: none;
 }
 
 .pagination{

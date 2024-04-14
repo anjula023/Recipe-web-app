@@ -4,15 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add Recipe</title>
-    <link rel="stylesheet" href="addrecipe.css">
+    <link rel="stylesheet" href="../css/add-recipe.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
 </head>
 <body>
     <div class="container">
+        <div class="menucolumn">
+            <h1 class="website-name">Cook<br>Craft</h1>
+            <ul class="menu">
+              <li class="menu-item"><a href="home.html">Home</a></li>
+              <li class="menu-item"><a href="explore.html">Explore</a></li>
+              <li class="menu-item"><a href="add-recipe.html">Add Recipe</a></li>
+              <li class="menu-item"><a href="profile.html">Profile</a></li>
+            </ul>
+          </div>
+          <div class="vertical-line"></div>
         <div class="column1">
         <div class="heading"><h2>Add Photos</h2></div>
         <div class="add">
-              <i class="bi bi-plus-square"></i>
+              <i id="add-icon" class="bi bi-plus-square"></i>
               <a class="upload" href="#"><p class="upload">upload</p><p>or drag & drop</p></a>
         </div>
         <textarea class="note" name="notes" placeholder="Write a note..." cols="45" rows="5"></textarea>
@@ -110,7 +120,7 @@
                 <option value="pinch">pinch</option>
             </select>
              </div>
-             <a href="#"><button class="addingredient" > +Ingredient </button></a>
+           <button id="addingredient" >+Ingredient </button>
            <p>Instructions</p>
             <textarea class="" name="recipe" cols="65" rows="13"></textarea>
             <br><br>
@@ -122,13 +132,13 @@
            <br>
            <div class="serving">
            <label for="servings">Servings</label>
-           <input type="number" id="serving" name="serving" min="1" max="infinite">
+           <input type="number" id="serving" name="serving" min="1">
            </div>
            <br>
             </div>
           </div>
     <div class="post">
-        <a href="#"><button class="publish">Publish Now</button></a>
+        <button class="publish">Publish Now</button>
     </div>
 </body>
 </html>

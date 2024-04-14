@@ -13,7 +13,11 @@
     max-width: 1200px;
     margin: 0 auto;
   }
-  
+
+  .left{
+    position:fixed;
+  }
+
   .website-name {
     text-align: center;
     font-size: 2rem;
@@ -23,39 +27,31 @@
   
   .menu {
     list-style: none;
-    padding-left:2rem;
     margin:0;
     display: flex;
     flex-direction: column;
   }
   
   .menu-item {
-    margin-top:4.5rem;
+    margin-top:5.5rem;
   }
   
   .menu-item a {
     text-decoration: none;
-    padding:0.5rem 1rem;
-    display: block;
-    color:white;
-  }
-  
-  .menu-item a:hover {
-    background-color: grey;
   }
   
   .vertical-left{
     border-left: 4px solid white;
-    height:680px;
+    height:236rem;
     position:absolute;
     left:20%;
   }
 
-  .profile1{
+  .profile{
     display:grid;
-    grid-template-columns:9vh 19vh auto;
+    grid-template-columns:9vh 5vh auto;
     background-color:rgb(247, 247, 126);
-    height:3.5rem;
+    height:4.5rem;
   }
 
   .profile-pic{
@@ -64,17 +60,15 @@
     border-radius:50%;
     object-fit: cover;
     margin-left:0.5rem;
-    margin-top:0.2rem;
+    margin-top:0.5rem;
   }
 
   .profile-name {
-    
-    color:orange;
+    position:absolute;
+    color:black;
   }
 
   .user-name {
-   
-   
     color:black;
   }
   
@@ -87,15 +81,16 @@
     cursor: pointer;
     font-size: 0.8rem;
     margin-left:13rem;
-    margin-bottom:2rem;
+    margin-top:2rem;
   }
+
   .post {
     margin-top: 1rem;
   }
   
   img{
     width:60vh;
-    height:35vh;
+    height:45vh;
   }
 
   .post-title {
@@ -115,8 +110,9 @@
   .rating{
     margin-top:0.5rem;
     margin-bottom:0.5rem;
-    margin-left:8rem;
+    margin-left:10rem;
     display:flex;
+    color:white;
   }
 
   .like{
@@ -125,7 +121,8 @@
   }
 
   .count-actions{
-    margin-bottom:4rem;
+    display:flex;
+    align-items: center;
     color:black;
   }
 
@@ -136,12 +133,7 @@
 
   .share{
     margin:0.5rem;
-    padding-left:1rem;
     color:black;
-  }
-
-  .fa{
-    color:white;
   }
 
   .checked{
@@ -150,11 +142,15 @@
 
   .vertical-right{
     border-right: 4px solid white;
-    height:680px;
+    height:236rem;
     position:absolute;
     right:32%;
   }
-  
+
+  .right{
+     position:fixed;
+  }
+
   .profile-picture {
     width: 50px;
     height: 50px;
@@ -179,7 +175,7 @@
     margin-top:2rem;
   }
   
-  .follow-button:hover {
+  button:hover {
     background-color: orange;
   }
 
@@ -189,17 +185,18 @@
     padding-top: 1rem;
   }
 
-.first{
+.user{
   display:grid;
-  grid-template-columns:9vh 19vh auto;
+  grid-template-columns:9vh 25vh auto;
 }
 
-.one{
+.suggested-image{
   margin-top:0.5rem;
 }
 
 a{
   color:white;
+  text-decoration: none;
 }
 
 

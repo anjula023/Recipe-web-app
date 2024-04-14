@@ -10,10 +10,40 @@ body {
     display: flex;
     justify-content: center;
     display: grid;
-    grid-template-columns: 70vh 80vh;
+    grid-template-columns:25vh 70vh 80vh;
     grid-gap: 5rem;
     max-width: 1200px;
     margin: 0 auto;
+  }
+
+  .website-name {
+    padding-left: 3rem;
+    font-size: 2rem;
+    font-family: "Irish Grover";
+    margin-bottom: 1rem;
+  }
+  
+  .menu {
+    list-style: none;
+    padding-left:2rem;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu-item a {
+    margin-top:4.5rem;
+    text-decoration: none;
+    padding:0.5rem 1rem;
+    display: block;
+    color:white;
+  }
+  
+  .vertical-line{
+    border-left: 4px solid white;
+    height:650px;
+    position:absolute;
+    left:20%;
   }
 
   .heading{
@@ -21,7 +51,7 @@ body {
      margin-top:1rem;
   }
 
-  .bi{
+  #add-icon{
     color:black;
     display: flex;
     justify-content: center;
@@ -84,7 +114,7 @@ select{
   display: inline;
 }
 
-.addingredient{
+#addingredient{
   background-color: orangered;
   color:white;
   border-style: none;

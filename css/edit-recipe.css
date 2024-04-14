@@ -22,7 +22,7 @@ body {
     margin-top:1rem;
  }
 
-  .icon{
+  #photo{
     position: absolute;
     transform:translate(-370%,150%);
     color:black;
@@ -47,12 +47,16 @@ body {
 
   .save{
     background-color: orangered;
-    color:white;
     border-style: none;
     width:120px;
     height:25px;
     margin-top:1.5rem;
     margin-left:20rem;
+  }
+
+  .save a{
+    text-decoration: none;
+    color:white;
   }
   
   button:hover {
@@ -90,7 +94,7 @@ body {
     margin-top:0.6rem;
 }
 
-.addingredient{
+#addingredient{
     background-color: orangered;
     color:white;
     border-style: none;

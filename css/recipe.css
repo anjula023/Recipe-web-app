@@ -37,10 +37,6 @@ body {
     color:white;
   }
   
-  .menu-item a:hover {
-    background-color: grey;
-  }
-  
   .vertical-line{
     border-left: 4px solid white;
     height:670px;
@@ -199,7 +195,8 @@ body {
     background-color: orange;
   }
 
-  .pname{
-    color:black;
+  a{
     text-decoration: none;
+    color:black;
   }
+

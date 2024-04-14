@@ -37,10 +37,6 @@ body {
     color:white;
   }
   
-  .menu-item a:hover {
-    background-color: grey;
-  }
-  
   .vertical-line{
     border-left: 4px solid white;
     height:675px;
@@ -152,6 +148,11 @@ body {
   
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+
+  a{
+    text-decoration: none;
+    color:white;
   }
 
  
